@@ -4,28 +4,52 @@
 		"selected_items":
 		[
 			[
-				"margin",
-				"margin-left"
-			],
-			[
-				"pad",
-				"padding"
-			],
-			[
-				"foter",
-				"footer-social"
-			],
-			[
-				"marign",
-				"margin-top"
+				"te",
+				"text-align"
 			],
 			[
 				"fon",
 				"font-family"
 			],
 			[
-				"te",
-				"text-decoration"
+				"pad",
+				"padding"
+			],
+			[
+				"marign",
+				"margin"
+			],
+			[
+				"text",
+				"text-indent"
+			],
+			[
+				"bot",
+				"bottom-form"
+			],
+			[
+				"bt",
+				"bottom-form"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"backgr",
+				"background"
+			],
+			[
+				"top",
+				"top-product-control"
+			],
+			[
+				"he",
+				"header-phone"
+			],
+			[
+				"foter",
+				"footer-social"
 			],
 			[
 				"foo",
@@ -216,10 +240,6 @@
 				"outline"
 			],
 			[
-				"text",
-				"text-indent"
-			],
-			[
 				"c",
 				"carousel__item"
 			],
@@ -242,10 +262,6 @@
 			[
 				"bo",
 				"bottom"
-			],
-			[
-				"he",
-				"header"
 			],
 			[
 				"reg",
@@ -362,10 +378,6 @@
 			[
 				"css",
 				"css	.css() - single"
-			],
-			[
-				"backgr",
-				"background-position"
 			],
 			[
 				"scro",
@@ -502,18 +514,6 @@
 			[
 				"border-bott",
 				"border-bottom-color"
-			],
-			[
-				"sev",
-				"service-wedding-cake"
-			],
-			[
-				"sc",
-				"scrollTop	.scrollTop()"
-			],
-			[
-				"hi",
-				"hidden-xs"
 			]
 		]
 	},
@@ -591,10 +591,36 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/extiser/git/daikinastana/markup"
+		"/Users/extiser/git/daikinastana/markup",
+		"/Users/extiser/git/daikinastana/markup/modules",
+		"/Users/extiser/git/daikinastana/markup/modules/footer",
+		"/Users/extiser/git/daikinastana/markup/modules/scheme",
+		"/Users/extiser/git/daikinastana/markup/pages",
+		"/Users/extiser/git/daikinastana/markup/static",
+		"/Users/extiser/git/daikinastana/markup/static/scss"
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/daikinastana/markup/modules/scheme/scheme.scss",
+		"/Users/extiser/git/daikinastana/markup/pages/index.jade",
+		"/Users/extiser/git/daikinastana/markup/modules/footer/footer.jade",
+		"/Users/extiser/git/daikinastana/markup/modules/footer/footer.scss",
+		"/Users/extiser/git/daikinastana/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/daikinastana/markup/modules/bottom/bottom.jade",
+		"/Users/extiser/git/daikinastana/markup/modules/bottom/bottom.scss",
+		"/Users/extiser/git/daikinastana/markup/modules/include/include.jade",
+		"/Users/extiser/git/daikinastana/markup/modules/scheme/scheme.jade",
+		"/Users/extiser/git/daikinastana/markup/modules/advantages/advantages.jade",
+		"/Users/extiser/git/daikinastana/markup/modules/advantages/advantages.scss",
+		"/Users/extiser/git/daikinastana/markup/modules/top/top.jade",
+		"/Users/extiser/git/daikinastana/markup/modules/top/top.scss",
+		"/Users/extiser/git/daikinastana/markup/modules/top/top.js",
+		"/Users/extiser/git/daikinastana/markup/static/scss/fonts.scss",
+		"/Users/extiser/git/daikinastana/markup/static/scss/vars.scss",
+		"/Users/extiser/git/daikinastana/markup/modules/slider/slider.jade",
+		"/Users/extiser/git/daikinastana/markup/modules/header/header.jade",
+		"/Users/extiser/git/daikinastana/markup/modules/header/header.scss",
+		"/Users/extiser/git/daikinastana/markup/static/scss/common.scss",
 		"/Users/extiser/git/blinds/markup/modules/news/news.scss",
 		"/Users/extiser/git/blinds/markup/modules/header/header.scss",
 		"/Users/extiser/git/blinds/markup/modules/footer/footer.scss",
@@ -702,27 +728,7 @@
 		"/Users/extiser/git/gsb/markup/pages/objects.jade",
 		"/Users/extiser/git/gsb/markup/pages/object.jade",
 		"/Users/extiser/git/gsb/markup/modules/header/header.jade",
-		"/Users/extiser/git/gsb/markup/pages/about.jade",
-		"/Users/extiser/git/gsb/markup/pages/engineering-services.jade",
-		"/Users/extiser/git/gsb/markup/modules/head/head.jade",
-		"/Users/extiser/git/gsb/markup/modules/main-slider-center/main-slider-center.js",
-		"/Users/extiser/git/gsb/markup/modules/header/header.js",
-		"/Users/extiser/git/gsb/markup/static/scss/vars.scss",
-		"/Users/extiser/git/gsb/markup/modules/engineering-services-content/engineering-services-content.jade",
-		"/Users/extiser/git/gsb/markup/static/scss/fonts.scss",
-		"/Users/extiser/git/gsb/markup/modules/main-slider-bottom/main-slider-bottom.jade",
-		"/Users/extiser/git/gsb/markup/modules/main-slider-center/main-slider-center.jade",
-		"/Users/extiser/git/gsb/markup/modules/objects-content/objects-content.jade",
-		"/Users/extiser/git/gsb/tars/user-tasks/s3-upload.js",
-		"/Users/extiser/git/gsb/tars-config.js",
-		"/Users/extiser/git/gsb/markup/modules/about-content/about-content.jade",
-		"/Users/extiser/git/gsb/markup/static/scss/mixins.scss",
-		"/Users/extiser/git/gsb/markup/static/scss/normalize.scss",
-		"/Users/extiser/git/gsb/.csscomb.json",
-		"/Users/extiser/git/gsb/.jscsrc",
-		"/Users/extiser/git/gsb/.gitignore",
-		"/Users/extiser/git/honey-bunny-html/Gemfile",
-		"/Users/extiser/git/honey-bunny-html/config.rb"
+		"/Users/extiser/git/gsb/markup/pages/about.jade"
 	],
 	"find":
 	{
@@ -741,6 +747,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"PTSans-Bold",
+			"PTSans-Italic",
 			"PTSans-Regular",
 			"PTSans-Italic",
 			"PTSans-Bold",
@@ -866,8 +874,6 @@
 			"add_submenu_page",
 			"Классы",
 			"as_store_optoins_subpage_product_classes",
-			"Велоаксессуары",
-			"Велосипеды",
 			"Велоаксессуары"
 		],
 		"highlight": false,
@@ -876,6 +882,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Calibri-Bold",
+			"Calibri-Light",
+			"Calibri-Bold",
+			"Calibri",
 			"Raleway-Black",
 			"Raleway-Medium",
 			"Raleway-Regular",
@@ -999,11 +1009,7 @@
 			"url(PIE.htc);",
 			"/images/",
 			"/font/",
-			"images",
-			"font",
-			"",
-			"/images/",
-			"/font/"
+			"images"
 		],
 		"reverse": false,
 		"show_context": false,
@@ -1062,7 +1068,7 @@
 	"project": "daikinastana.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":

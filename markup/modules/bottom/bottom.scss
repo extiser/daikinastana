@@ -3,7 +3,18 @@
 
 	background: url(%=staticPrefixForCss=%general/bottom-bg.jpg) no-repeat center center;
 	&__wrapper {
+		display: flex;
+
+		align-items: flex-start;
 		@extend .wrapper;
+		justify-content: space-between;
+	}
+	&__video {
+		position: relative;
+		top: 22px;
+
+		width: 560px;
+		height: 303px;
 	}
 }
 
