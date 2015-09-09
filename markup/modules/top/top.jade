@@ -1,0 +1,19 @@
+mixin top()
+	section.top
+		.top__wrapper
+			.top-title Воздухоочиститель 
+				br
+				| с системой увлажнения
+				span DAIKIN MCK75J
+
+			a(href="#" title="").top__btn 
+				span Технические характеристики DAIKIN MCK75J
+
+			.top-product
+				.top-product__list
+					img(src="%=staticPrefix=%images/content/product-gray.png" alt="").top-product__img.active#gray
+					img(src="%=staticPrefix=%images/content/product-black.png" alt="").top-product__img#black
+				.top-product__slogan Можно приобрести разноцветные панели черного и серого цветов
+				.top-product-control
+					.top-product-control__item.top-product-control__item--gray(data-color="#gray")
+					.top-product-control__item.top-product-control__item--black(data-color="#black")

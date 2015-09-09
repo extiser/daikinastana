@@ -1,0 +1,112 @@
+.top {
+	width: 100%;
+	height: 544px;
+
+	background: url(%=staticPrefixForCss=%general/top-bg.jpg) no-repeat center center;
+	&__wrapper {
+		position: relative;
+
+		display: flex;
+
+		align-items: flex-start;
+		@extend .wrapper;
+		justify-content: space-between;
+	}
+	&__btn {
+		position: absolute;
+		bottom: 3px;
+		left: 44px;
+
+		width: 400px;
+		height: 50px;
+
+		font-family: "Calibri-Bold";
+		font-size: em(17px);
+		line-height: 46px;
+
+		@extend .btn;
+	}
+}
+
+.top-title {
+	width: 450px;
+	padding-top: 73px;
+
+	text-transform: uppercase;
+
+	color: $blue;
+
+	font-family: "Calibri-Bold";
+	font-size: em(36px);
+	line-height: em(36px, 36px);
+	span {
+		display: block;
+
+		color: #231f20;
+	}
+}
+
+.top-product {
+	position: relative;
+
+	width: 500px;
+	padding-top: 49px;
+	&__list {
+		position: relative;
+
+		height: 427px;
+	}
+	&__img {
+		position: absolute;
+
+		visibility: hidden;
+
+		opacity: 0;
+
+		@include transition;
+		&.active {
+			visibility: visible;
+
+			opacity: 1;
+		}
+	}
+	&__slogan {
+		width: 308px;
+		margin-top: 15px;
+
+		text-transform: uppercase;
+
+		color: #fff;
+
+		font-family: "Calibri-Bold";
+		font-size: em(18px);
+		line-height: em(16px, 18px);
+	}
+}
+
+.top-product-control {
+	position: absolute;
+	right: 100px;
+	bottom: 0;
+	&__item {
+		display: inline-block;
+
+		width: 22px;
+		height: 22px;
+		margin-right: 6px;
+
+		border-radius: 50%;
+		&:hover {
+			cursor: pointer;
+		}
+		&--gray {
+			box-sizing: border-box;
+
+			border: 1px solid #000;
+			background: #b3bdc2;
+		}
+		&--black {
+			background: #000;
+		}
+	}
+}

@@ -1,0 +1,49 @@
+.header {
+	display: flex;
+
+	padding-top: 30px;
+	padding-bottom: 36px;
+
+	align-items: flex-start;
+	@extend .wrapper;
+	justify-content: space-between;
+	&__logo {
+		display: block;
+
+		@include bg($logo);
+	}
+	&__slogan {
+		width: 205px;
+		padding-top: 7px;
+		padding-left: 16px;
+
+		text-transform: uppercase;
+
+		color: #231f20;
+
+		font-size: em(14px);
+		line-height: em(16px, 14px);
+	}
+}
+
+.header-phone {
+	text-align: right;
+
+	flex-grow: 2;
+	&__number {
+		color: #231f20;
+
+		font-size: em(24px);
+	}
+	&__btn {
+		float: right;
+
+		width: 150px;
+		height: 28px;
+		margin-top: 1px;
+
+		line-height: 25px;
+
+		@extend .btn;
+	}
+}

@@ -1,0 +1,22 @@
+.footer {
+	display: flex;
+
+	padding: 25px 0 20px; 
+
+	@extend .wrapper;
+	justify-content: space-between;
+	&__copyright,
+	&__create {
+		text-transform: uppercase;
+
+		color: #000;
+
+		font-family: "Calibri-Light";
+		a {
+			color: #000;
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+}
