@@ -4,10 +4,24 @@ html,
 body {
 	height: 100%;
 
-	font-family: 'Calibri';
+	font-family: "Calibri";
 }
 
 .wrapper {
 	width: 1000px;
 	margin: auto;
+}
+
+.mask {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+
+	background: rgba(0,0,0,.3);
+	display: none;
+	&.active {
+		display: block;
+	}
 }

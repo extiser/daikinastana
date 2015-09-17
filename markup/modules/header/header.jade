@@ -4,6 +4,7 @@ mixin header()
 		.header__slogan Мы являемся официальным дилером Daikin в казахстане
 
 		.header-phone
-			.header-phone__number +7 707 862 53 48
-			a(href="#" title="").header-phone__btn 
+			.header-phone__number +7
+				span(data-number="707 862 53 48") показать номер
+			a(href="#" title="" data-click="modal" data-item="#modal-callback").header-phone__btn 
 				span заказать звонок

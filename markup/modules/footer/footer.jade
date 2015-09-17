@@ -3,6 +3,9 @@ mixin footer(data)
 		.footer__copyright © 2015 Все права защищены
 		.footer__create Разработано в 
 			a(href="http://astanacreative.kz" target="_blank" title="") astanacreative.kz
+	+modal-callback()
+	+modal-video()
+	.mask
 	//- Main scripts. You can replace it, but I recommend you to leave it here
 	script(src='http://yastatic.net/jquery/1.11.2/jquery.min.js')
 	script(src='%=staticPrefix=%js/main%=hash=%%=min=%.js')

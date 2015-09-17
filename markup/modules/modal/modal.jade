@@ -1,0 +1,12 @@
+mixin modal-callback()
+	.modal.modal-callback.bottom-form#modal-callback
+		form(action="" method="")
+			.bottom-form__title Оставьте заявку
+				span и мы вам перезвоним
+			input(type="text" value="" placeholder="Имя").bottom-form__field
+			input(type="text" value="" placeholder="Телефон").bottom-form__field
+			input(type="submit" value="ОСТАВИТЬ ЗАЯВКУ").bottom-form__submit
+
+mixin modal-video()
+	.modal.modal-video#modal-video
+		| <iframe width="560" height="315" src="https://www.youtube.com/embed/ZqhKegdf1VE" frameborder="0" allowfullscreen></iframe>
