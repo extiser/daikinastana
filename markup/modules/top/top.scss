@@ -1,8 +1,12 @@
 .top {
 	width: 100%;
-	height: 544px;
+	height: 736px;
+	margin-top: 60px;
 
-	background: url(%=staticPrefixForCss=%general/top-bg.jpg) no-repeat center center;
+	background: url(%=staticPrefixForCss=%general/top-bg.jpg) no-repeat center top;
+	&--inside {
+		height: 650px;
+	}
 	&__wrapper {
 		position: relative;
 
@@ -12,33 +16,40 @@
 		@extend .wrapper;
 		justify-content: space-between;
 	}
-	&__btn {
+	&__buttons {
 		position: absolute;
-		bottom: 3px;
-		left: 44px;
-
-		width: 400px;
-		height: 50px;
+		bottom: -200px;
+	}
+	&__btn {
+		width: 337px;
+		height: 38px;
+		margin: 0 auto 15px;
 
 		font-family: "Calibri-Bold";
-		font-size: em(17px);
-		line-height: 46px;
+		font-size: em(15px);
+		line-height: 34px;
 
 		@extend .btn;
+		&--min-width {
+			width: 263px;
+		}
 	}
 }
 
 .top-title {
+	position: absolute;
+	// padding-top: 73px;
+	top: -90px;
+
 	width: 450px;
-	padding-top: 73px;
 
 	text-transform: uppercase;
 
 	color: $blue;
 
 	font-family: "Calibri-Bold";
-	font-size: em(36px);
-	line-height: em(36px, 36px);
+	font-size: em(24px);
+	line-height: em(24px, 24px);
 	span {
 		display: block;
 
@@ -50,7 +61,25 @@
 	position: relative;
 
 	width: 500px;
+	margin-top: 45px;
 	padding-top: 49px;
+	&--left {
+		padding-left: 45px;
+		.top-title {
+			top: -75px;
+		}
+	}
+	&--right {
+		.top-title {
+			text-align: right;
+		}
+		.top__buttons {
+			width: 100%;
+		}
+	}
+	&--inside {
+		padding-top: 80px;
+	}
 	&__list {
 		position: relative;
 
@@ -70,24 +99,51 @@
 			opacity: 1;
 		}
 	}
-	&__slogan {
-		width: 308px;
-		margin-top: 15px;
+}
 
+.top-content {
+	position: relative;
+
+	width: 480px;
+	padding-top: 120px;
+	&__title {
 		text-transform: uppercase;
 
-		color: #fff;
+		color: $blue;
 
 		font-family: "Calibri-Bold";
-		font-size: em(18px);
-		line-height: em(16px, 18px);
+		font-size: em(24px);
+	}
+	&__har {
+		margin-bottom: 20px;
+		strong {
+			display: block;
+
+			text-transform: uppercase;
+
+			font-family: "Calibri-Bold";
+			font-size: em(14px);
+			line-height: em(14px, 14px);
+		}
+		span {
+			display: block;
+
+			font-size: em(12px);
+		}
+	}
+	.top__buttons {
+		bottom: -120px;
+	}
+	.top__btn {
+		margin-bottom: 15px;
+		margin-left: 0;
 	}
 }
 
 .top-product-control {
 	position: absolute;
 	right: 100px;
-	bottom: 0;
+	bottom: -50px;
 	&__item {
 		display: inline-block;
 

@@ -23,4 +23,10 @@
 		border-radius: 4px;
 		background: linear-gradient(to bottom, #47b3e1, #0495cf);
 	}
+	&:hover {
+		background: linear-gradient(to bottom, #47b3e1, #0495cf);
+		span {
+			background: linear-gradient(to bottom, #0193cf, #3dafe0);
+		}
+	}
 }

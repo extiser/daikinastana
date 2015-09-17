@@ -593,21 +593,20 @@
 	[
 		"/Users/extiser/git/daikinastana/markup",
 		"/Users/extiser/git/daikinastana/markup/modules",
-		"/Users/extiser/git/daikinastana/markup/modules/footer",
-		"/Users/extiser/git/daikinastana/markup/modules/scheme",
+		"/Users/extiser/git/daikinastana/markup/modules/bottom",
 		"/Users/extiser/git/daikinastana/markup/pages",
 		"/Users/extiser/git/daikinastana/markup/static",
 		"/Users/extiser/git/daikinastana/markup/static/scss"
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/daikinastana/markup/modules/bottom/bottom.jade",
+		"/Users/extiser/git/daikinastana/markup/modules/bottom/bottom.scss",
 		"/Users/extiser/git/daikinastana/markup/modules/scheme/scheme.scss",
 		"/Users/extiser/git/daikinastana/markup/pages/index.jade",
 		"/Users/extiser/git/daikinastana/markup/modules/footer/footer.jade",
 		"/Users/extiser/git/daikinastana/markup/modules/footer/footer.scss",
 		"/Users/extiser/git/daikinastana/markup/static/scss/GUI.scss",
-		"/Users/extiser/git/daikinastana/markup/modules/bottom/bottom.jade",
-		"/Users/extiser/git/daikinastana/markup/modules/bottom/bottom.scss",
 		"/Users/extiser/git/daikinastana/markup/modules/include/include.jade",
 		"/Users/extiser/git/daikinastana/markup/modules/scheme/scheme.jade",
 		"/Users/extiser/git/daikinastana/markup/modules/advantages/advantages.jade",
