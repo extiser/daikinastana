@@ -4,20 +4,56 @@
 		"selected_items":
 		[
 			[
-				"te",
-				"text-align"
+				"pa",
+				"padding-left"
 			],
 			[
-				"fon",
-				"font-family"
+				"te",
+				"text-decoration"
 			],
 			[
 				"pad",
-				"padding"
+				"padding-left"
+			],
+			[
+				"moda",
+				"modal-video"
+			],
+			[
+				"mo",
+				"modal-video"
+			],
+			[
+				"a",
+				"active"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"le",
+				"left"
 			],
 			[
 				"marign",
-				"margin"
+				"margin-top"
+			],
+			[
+				"top",
+				"top-inside"
+			],
+			[
+				"l",
+				"line-height"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"margin",
+				"margin-bottom"
 			],
 			[
 				"text",
@@ -32,16 +68,8 @@
 				"bottom-form"
 			],
 			[
-				"margin",
-				"margin-top"
-			],
-			[
 				"backgr",
 				"background"
-			],
-			[
-				"top",
-				"top-product-control"
 			],
 			[
 				"he",
@@ -62,14 +90,6 @@
 			[
 				"ad",
 				"advantages__item"
-			],
-			[
-				"marg",
-				"margin"
-			],
-			[
-				"le",
-				"letter-spacing"
 			],
 			[
 				"news",
@@ -126,10 +146,6 @@
 			[
 				"max",
 				"max-width"
-			],
-			[
-				"pa",
-				"padding-top"
 			],
 			[
 				"margin-",
@@ -498,22 +514,6 @@
 			[
 				"fn",
 				"font-size"
-			],
-			[
-				"text-",
-				"text-align"
-			],
-			[
-				"оп",
-				"оператор"
-			],
-			[
-				"service-car__guests__",
-				"service-car__guests__list__item"
-			],
-			[
-				"border-bott",
-				"border-bottom-color"
 			]
 		]
 	},
@@ -593,33 +593,44 @@
 	[
 		"/Users/extiser/git/daikinastana/markup",
 		"/Users/extiser/git/daikinastana/markup/modules",
-		"/Users/extiser/git/daikinastana/markup/modules/bottom",
+		"/Users/extiser/git/daikinastana/markup/modules/footer",
+		"/Users/extiser/git/daikinastana/markup/modules/header",
+		"/Users/extiser/git/daikinastana/markup/modules/include",
+		"/Users/extiser/git/daikinastana/markup/modules/modal",
+		"/Users/extiser/git/daikinastana/markup/modules/top",
+		"/Users/extiser/git/daikinastana/markup/modules/top-inside",
 		"/Users/extiser/git/daikinastana/markup/pages",
 		"/Users/extiser/git/daikinastana/markup/static",
 		"/Users/extiser/git/daikinastana/markup/static/scss"
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/daikinastana/markup/modules/header/header.js",
+		"/Users/extiser/git/daikinastana/markup/modules/header/header.jade",
+		"/Users/extiser/git/daikinastana/markup/modules/header/header.scss",
+		"/Users/extiser/git/daikinastana/markup/modules/top/top.js",
+		"/Users/extiser/git/daikinastana/markup/modules/top/top.scss",
+		"/Users/extiser/git/daikinastana/markup/modules/modal/modal.scss",
+		"/Users/extiser/git/daikinastana/markup/modules/top-inside/top-inside.jade",
+		"/Users/extiser/git/daikinastana/markup/modules/top/top.jade",
+		"/Users/extiser/git/daikinastana/markup/modules/modal/modal.js",
+		"/Users/extiser/git/daikinastana/markup/modules/modal/modal.jade",
+		"/Users/extiser/git/daikinastana/markup/modules/footer/footer.jade",
+		"/Users/extiser/git/daikinastana/markup/static/scss/common.scss",
+		"/Users/extiser/git/daikinastana/markup/modules/include/include.jade",
+		"/Users/extiser/git/daikinastana/markup/pages/inside.jade",
+		"/Users/extiser/git/daikinastana/markup/static/scss/GUI.scss",
 		"/Users/extiser/git/daikinastana/markup/modules/bottom/bottom.jade",
 		"/Users/extiser/git/daikinastana/markup/modules/bottom/bottom.scss",
 		"/Users/extiser/git/daikinastana/markup/modules/scheme/scheme.scss",
 		"/Users/extiser/git/daikinastana/markup/pages/index.jade",
-		"/Users/extiser/git/daikinastana/markup/modules/footer/footer.jade",
 		"/Users/extiser/git/daikinastana/markup/modules/footer/footer.scss",
-		"/Users/extiser/git/daikinastana/markup/static/scss/GUI.scss",
-		"/Users/extiser/git/daikinastana/markup/modules/include/include.jade",
 		"/Users/extiser/git/daikinastana/markup/modules/scheme/scheme.jade",
 		"/Users/extiser/git/daikinastana/markup/modules/advantages/advantages.jade",
 		"/Users/extiser/git/daikinastana/markup/modules/advantages/advantages.scss",
-		"/Users/extiser/git/daikinastana/markup/modules/top/top.jade",
-		"/Users/extiser/git/daikinastana/markup/modules/top/top.scss",
-		"/Users/extiser/git/daikinastana/markup/modules/top/top.js",
 		"/Users/extiser/git/daikinastana/markup/static/scss/fonts.scss",
 		"/Users/extiser/git/daikinastana/markup/static/scss/vars.scss",
 		"/Users/extiser/git/daikinastana/markup/modules/slider/slider.jade",
-		"/Users/extiser/git/daikinastana/markup/modules/header/header.jade",
-		"/Users/extiser/git/daikinastana/markup/modules/header/header.scss",
-		"/Users/extiser/git/daikinastana/markup/static/scss/common.scss",
 		"/Users/extiser/git/blinds/markup/modules/news/news.scss",
 		"/Users/extiser/git/blinds/markup/modules/header/header.scss",
 		"/Users/extiser/git/blinds/markup/modules/footer/footer.scss",
@@ -721,13 +732,7 @@
 		"/Users/extiser/git/gsb/markup/modules/objects-content/objects-content.scss",
 		"/Users/extiser/git/gsb/markup/modules/main-slider-center/main-slider-center.scss",
 		"/Users/extiser/git/gsb/markup/modules/main-slider-bottom/main-slider-bottom.scss",
-		"/Users/extiser/git/gsb/markup/modules/header/header.scss",
-		"/Users/extiser/git/gsb/markup/modules/main-slider-bottom/main-slider-bottom.js",
-		"/Users/extiser/git/gsb/markup/pages/index.jade",
-		"/Users/extiser/git/gsb/markup/pages/objects.jade",
-		"/Users/extiser/git/gsb/markup/pages/object.jade",
-		"/Users/extiser/git/gsb/markup/modules/header/header.jade",
-		"/Users/extiser/git/gsb/markup/pages/about.jade"
+		"/Users/extiser/git/gsb/markup/modules/header/header.scss"
 	],
 	"find":
 	{
